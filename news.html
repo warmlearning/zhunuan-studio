@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>最新消息 | 知暖學習工作室</title>
+  <meta name="description" content="知暖學習工作室的最新消息與公告。" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body lang="zh">
+
+<!-- ══ NAVBAR ══ -->
+<nav class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="navbar-logo">
+      <img src="logo.jpg" alt="知暖" onerror="this.style.display='none';document.getElementById('logoFallback').style.display='flex'">
+      <div class="logo-fallback" id="logoFallback" style="display:none">知</div>
+      <span class="zh">知暖學習工作室</span>
+      <span class="en">Zhunuan Studio</span>
+    </a>
+    <ul class="navbar-nav">
+      <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+      <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+      <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+      <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+      <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+      <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+    </ul>
+    <div class="navbar-right">
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中文</button>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+      <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+    <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+    <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+    <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+    <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+    <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+  </ul>
+  <div class="mobile-lang">
+    <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中文</button>
+    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+  </div>
+</div>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a>
+      <i class="fas fa-chevron-right" style="font-size:.6rem"></i>
+      <span class="zh">最新消息</span><span class="en">News</span>
+    </div>
+    <h1><span class="zh">最新消息</span><span class="en">Latest News</span></h1>
+    <p>
+      <span class="zh">掌握知暖學習工作室的最新動態與公告</span>
+      <span class="en">Stay updated with the latest news and announcements from Zhunuan</span>
+    </p>
+  </div>
+</section>
+
+<!-- ══ NEWS LIST ══ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <span class="zh">最新動態</span>
+        <span class="en">Latest Updates</span>
+      </span>
+      <h2>
+        <span class="zh">近期公告</span>
+        <span class="en">Recent Announcements</span>
+      </h2>
+    </div>
+
+    <div style="max-width:780px;margin:0 auto;display:flex;flex-direction:column;gap:20px;">
+
+      <!-- News 1 -->
+      <div class="news-item">
+        <div class="news-date-box">
+          <div class="day">01</div>
+          <div class="month">
+            <span class="zh">2025 年</span>
+            <span class="en">2025</span>
+          </div>
+        </div>
+        <div class="news-content">
+          <span class="tag">
+            <span class="zh">課程公告</span>
+            <span class="en">Course Update</span>
+          </span>
+          <h3>
+            <span class="zh">🎉 線上課程開發中，敬請期待！</span>
+            <span class="en">🎉 Online Courses in Development — Coming Soon!</span>
+          </h3>
+          <p>
+            <span class="zh">知暖學習工作室正積極開發系統化線上課程，涵蓋英語文法、口說練習、閱讀理解等主題，讓學員不受時間地點限制隨時學習。預計近期正式推出，請持續追蹤我們的 Instagram 獲取第一手消息！</span>
+            <span class="en">Zhunuan is actively developing systematic online courses covering English grammar, speaking practice, reading comprehension, and more. Learn anytime, anywhere. Stay tuned — follow our Instagram for first-hand announcements!</span>
+          </p>
+          <div style="margin-top:14px;">
+            <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" class="btn btn-primary" style="padding:8px 20px;font-size:.85rem;">
+              <i class="fab fa-instagram"></i>
+              <span class="zh">追蹤 Instagram</span>
+              <span class="en">Follow Instagram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- News 2 -->
+      <div class="news-item">
+        <div class="news-date-box">
+          <div class="day">15</div>
+          <div class="month">
+            <span class="zh">2025 年</span>
+            <span class="en">2025</span>
+          </div>
+        </div>
+        <div class="news-content">
+          <span class="tag" style="background:rgba(44,75,110,.08);color:var(--dark-blue);">
+            <span class="zh">招生消息</span>
+            <span class="en">Enrollment</span>
+          </span>
+          <h3>
+            <span class="zh">📣 小班制課程招生中！名額有限，歡迎洽詢</span>
+            <span class="en">📣 Small Group Classes Now Enrolling — Limited Spots!</span>
+          </h3>
+          <p>
+            <span class="zh">目前開放成人英語會話小班（3–6人）報名，每週固定一堂，以主題式討論、TED 影片賞析與情境對話為主。課程以線上進行，時間彈性安排。名額有限，有興趣者請盡快聯繫！</span>
+            <span class="en">Adult English Conversation small groups (3–6 people) are now open for enrollment — one session per week focused on thematic discussion, TED talks, and situational dialogue. Held online with flexible scheduling. Spots are limited, so contact us soon!</span>
+          </p>
+          <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary" style="padding:8px 20px;font-size:.85rem;">
+              <i class="fas fa-paper-plane"></i>
+              <span class="zh">立即報名</span>
+              <span class="en">Enroll Now</span>
+            </a>
+            <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener" class="btn btn-outline" style="padding:8px 20px;font-size:.85rem;">
+              <i class="fab fa-line"></i> Line@
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- News 3 -->
+      <div class="news-item">
+        <div class="news-date-box">
+          <div class="day">03</div>
+          <div class="month">
+            <span class="zh">2025 年</span>
+            <span class="en">2025</span>
+          </div>
+        </div>
+        <div class="news-content">
+          <span class="tag" style="background:rgba(255,183,77,.12);color:#e67e22;">
+            <span class="zh">社群媒體</span>
+            <span class="en">Social Media</span>
+          </span>
+          <h3>
+            <span class="zh">📸 歡迎追蹤我們的 Instagram！</span>
+            <span class="en">📸 Follow Us on Instagram!</span>
+          </h3>
+          <p>
+            <span class="zh">知暖學習工作室的 Instagram 帳號 @warmlearning 正式上線！我們會定期分享英語學習小技巧、課程花絮、學員心得，以及各種有趣的語言學習內容。歡迎追蹤、按讚、留言，一起加入知暖大家庭！</span>
+            <span class="en">Zhunuan's Instagram account @warmlearning is now live! We'll regularly share English learning tips, class highlights, student testimonials, and fun language content. Follow, like, and comment — join the Zhunuan family!</span>
+          </p>
+          <div style="margin-top:14px;">
+            <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" class="btn btn-primary" style="padding:8px 20px;font-size:.85rem;background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);">
+              <i class="fab fa-instagram"></i>
+              <span class="zh">前往 @warmlearning</span>
+              <span class="en">Visit @warmlearning</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ STAY CONNECTED ══ -->
+<section class="section" style="background:#fff;padding-top:72px;padding-bottom:72px;">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <span class="zh">保持聯繫</span>
+        <span class="en">Stay Connected</span>
+      </span>
+      <h2>
+        <span class="zh">不錯過任何消息</span>
+        <span class="en">Never Miss an Update</span>
+      </h2>
+      <p>
+        <span class="zh">透過以下管道追蹤知暖，第一時間獲取最新課程資訊與學習內容。</span>
+        <span class="en">Follow Zhunuan through these channels to get the latest course info and learning content first.</span>
+      </p>
+    </div>
+    <div class="grid-3" style="max-width:760px;margin:0 auto;">
+      <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" class="card text-center" style="text-decoration:none;transition:var(--transition);">
+        <div style="font-size:2.5rem;margin-bottom:14px;">📸</div>
+        <h3 style="color:var(--dark-blue);margin-bottom:6px;">Instagram</h3>
+        <p style="color:var(--text-light);font-size:.85rem;">@warmlearning</p>
+      </a>
+      <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener" class="card text-center" style="text-decoration:none;">
+        <div style="font-size:2.5rem;margin-bottom:14px;">💬</div>
+        <h3 style="color:var(--dark-blue);margin-bottom:6px;">Line@</h3>
+        <p style="color:var(--text-light);font-size:.85rem;"><span class="zh">即時訊息諮詢</span><span class="en">Instant Messaging</span></p>
+      </a>
+      <a href="mailto:zhinuanwarmstudio@gmail.com" class="card text-center" style="text-decoration:none;">
+        <div style="font-size:2.5rem;margin-bottom:14px;">✉️</div>
+        <h3 style="color:var(--dark-blue);margin-bottom:6px;">Email</h3>
+        <p style="color:var(--text-light);font-size:.85rem;">zhinuanwarmstudio@gmail.com</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section class="cta-section">
+  <div class="container">
+    <h2>
+      <span class="zh">有問題想詢問嗎？</span>
+      <span class="en">Have Questions?</span>
+    </h2>
+    <p>
+      <span class="zh">歡迎直接聯繫我們，我們很樂意回答您的任何問題。</span>
+      <span class="en">Feel free to reach out — we're happy to answer any questions you have.</span>
+    </p>
+    <div class="cta-btns">
+      <a href="contact.html" class="btn btn-white">
+        <span class="zh"><i class="fas fa-paper-plane"></i> 聯絡我們</span>
+        <span class="en"><i class="fas fa-paper-plane"></i> Contact Us</span>
+      </a>
+      <a href="services.html" class="btn btn-outline-white">
+        <span class="zh"><i class="fas fa-list"></i> 瀏覽課程</span>
+        <span class="en"><i class="fas fa-list"></i> Browse Courses</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3><span class="zh">知暖學習工作室</span><span class="en">Zhunuan Warm Learning Studio</span></h3>
+        <p>
+          <span class="zh">知足上進、溫暖而堅定<br>透過溫暖且有系統的學習方式，陪伴每個學習者找到屬於自己的學習之道。</span>
+          <span class="en">Grounded, warm, and steadfast.<br>Guiding every learner to discover their own path through warm, systematic education.</span>
+        </p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener" title="Line@"><i class="fab fa-line"></i></a>
+          <a href="mailto:zhinuanwarmstudio@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4><span class="zh">快速連結</span><span class="en">Quick Links</span></h4>
+        <ul>
+          <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+          <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+          <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+          <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+          <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+          <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4><span class="zh">聯絡資訊</span><span class="en">Contact</span></h4>
+        <div class="footer-contact-info">
+          <p><i class="fas fa-envelope"></i> <a href="mailto:zhinuanwarmstudio@gmail.com">zhinuanwarmstudio@gmail.com</a></p>
+          <p><i class="fas fa-phone"></i> <a href="tel:0910406387">0910-406-387</a></p>
+          <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener">@warmlearning</a></p>
+          <p><i class="fab fa-line"></i> <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener">Line@</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="zh">© 2024 知暖學習工作室 版權所有</p>
+      <p class="en">© 2024 Zhunuan Warm Learning Studio. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>關於我們 | 知暖學習工作室</title>
+  <meta name="description" content="認識知暖學習工作室的品牌故事、使命願景與核心價值。" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body lang="zh">
+
+<!-- ══ NAVBAR ══ -->
+<nav class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="navbar-logo">
+      <img src="logo.jpg" alt="知暖" onerror="this.style.display='none';document.getElementById('logoFallback').style.display='flex'">
+      <div class="logo-fallback" id="logoFallback" style="display:none">知</div>
+      <span class="zh">知暖學習工作室</span>
+      <span class="en">Zhunuan Studio</span>
+    </a>
+    <ul class="navbar-nav">
+      <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+      <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+      <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+      <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+      <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+      <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+    </ul>
+    <div class="navbar-right">
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中文</button>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+      <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+    <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+    <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+    <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+    <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+    <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+  </ul>
+  <div class="mobile-lang">
+    <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中文</button>
+    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+  </div>
+</div>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a>
+      <i class="fas fa-chevron-right" style="font-size:.6rem"></i>
+      <span class="zh">關於我們</span><span class="en">About</span>
+    </div>
+    <h1><span class="zh">關於知暖</span><span class="en">About Zhunuan</span></h1>
+    <p>
+      <span class="zh">一個相信學習可以是溫暖的旅程的工作室</span>
+      <span class="en">A studio that believes learning can be a warm and meaningful journey</span>
+    </p>
+  </div>
+</section>
+
+<!-- ══ BRAND STORY ══ -->
+<section class="section">
+  <div class="container">
+    <div class="story-section">
+      <div class="story-img">📖</div>
+      <div class="story-text">
+        <span class="section-tag">
+          <span class="zh">品牌故事</span>
+          <span class="en">Our Story</span>
+        </span>
+        <h2>
+          <span class="zh">知暖，從一個問題開始</span>
+          <span class="en">Zhunuan Began With a Question</span>
+        </h2>
+        <p>
+          <span class="zh">「為什麼那麼多學生學了多年英語，卻還是無法開口說、看不懂文章？」這個問題，是知暖學習工作室成立的起點。</span>
+          <span class="en">"Why do so many students study English for years and still can't speak or understand it?" This question was the seed that grew into Zhunuan.</span>
+        </p>
+        <p>
+          <span class="zh">創辦人 Penny 老師在多年的英語教學經驗中，發現傳統填鴨式教學讓學生失去了學習的熱情。於是，她決定打造一個不一樣的學習空間——溫暖的、有方向的、以學生為主體的。</span>
+          <span class="en">Founder Penny, through years of teaching experience, discovered that traditional rote learning kills students' enthusiasm. She set out to create a different kind of learning space — warm, purposeful, and student-centered.</span>
+        </p>
+        <p>
+          <span class="zh">「知暖」兩字，取自「知足上進、溫暖而堅定」——我們希望每一位學習者都能在這裡找到方向，用最適合自己的方式，穩定地成長。</span>
+          <span class="en">"Zhunuan" comes from "grounded, warm, and steadfast" — we want every learner to find direction here and grow steadily in their own way.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MISSION ══ -->
+<section class="section" style="background:#fff;padding-top:88px;padding-bottom:88px;">
+  <div class="container">
+    <div class="mission-card">
+      <h2>
+        <span class="zh">我們的使命</span>
+        <span class="en">Our Mission</span>
+      </h2>
+      <p>
+        <span class="zh">透過溫暖且有系統的學習方式，以英語學習為起點，打造每個人專屬的無痛學習法，受用終身。以互動、引導、陪伴取代單向教學，養成學生自律與自學能力，讓學習不再是壓力，而是一輩子的夥伴。</span>
+        <span class="en">Through warm and systematic learning, starting from English, we craft personalized pain-free learning methods that serve learners for life. By replacing one-way instruction with interaction, guidance, and companionship, we cultivate self-discipline and independent learning so that education becomes not a burden, but a lifelong companion.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ VISION & VALUES ══ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <span class="zh">核心價值</span>
+        <span class="en">Core Values</span>
+      </span>
+      <h2>
+        <span class="zh">我們所相信的</span>
+        <span class="en">What We Stand For</span>
+      </h2>
+      <p>
+        <span class="zh">四個核心價值，引導我們與每一位學習者同行。</span>
+        <span class="en">Four core values guide us alongside every learner we work with.</span>
+      </p>
+    </div>
+    <div class="grid-4">
+      <div class="card value-card">
+        <div class="value-icon teal"><i class="fas fa-heart"></i></div>
+        <h3>
+          <span class="zh">溫暖陪伴</span>
+          <span class="en">Warm Companionship</span>
+        </h3>
+        <p>
+          <span class="zh">每一位學員都不是孤單的。我們與您同行，在每一個學習的低潮與高峰旁守候。</span>
+          <span class="en">No learner is alone. We walk beside you through every high and low in your learning journey.</span>
+        </p>
+      </div>
+      <div class="card value-card">
+        <div class="value-icon blue"><i class="fas fa-layer-group"></i></div>
+        <h3>
+          <span class="zh">系統學習</span>
+          <span class="en">Systematic Learning</span>
+        </h3>
+        <p>
+          <span class="zh">有架構、有步驟的學習路徑，讓進步清晰可見，不再感到茫然無措。</span>
+          <span class="en">Structured, step-by-step learning paths make progress visible and remove the feeling of being lost.</span>
+        </p>
+      </div>
+      <div class="card value-card">
+        <div class="value-icon warm"><i class="fas fa-comments"></i></div>
+        <h3>
+          <span class="zh">互動引導</span>
+          <span class="en">Interactive Guidance</span>
+        </h3>
+        <p>
+          <span class="zh">用提問、對話、討論取代填鴨，激發學生的主動思考與表達能力。</span>
+          <span class="en">Replace rote memorization with questions, dialogue, and discussion to spark active thinking.</span>
+        </p>
+      </div>
+      <div class="card value-card">
+        <div class="value-icon purple"><i class="fas fa-infinity"></i></div>
+        <h3>
+          <span class="zh">終身受用</span>
+          <span class="en">Skills for Life</span>
+        </h3>
+        <p>
+          <span class="zh">我們的目標不只是幫您通過一場考試，而是培養帶得走的語言力與學習力。</span>
+          <span class="en">Our goal is not just passing an exam, but building language and learning skills that last forever.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TARGET AUDIENCE ══ -->
+<section class="section" style="background:#fff;padding-top:88px;padding-bottom:88px;">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <span class="zh">適合對象</span>
+        <span class="en">Who We Serve</span>
+      </span>
+      <h2>
+        <span class="zh">我們為誰而來</span>
+        <span class="en">We're Here For You If...</span>
+      </h2>
+    </div>
+    <div class="grid-2">
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div class="service-icon" style="flex-shrink:0"><i class="fas fa-briefcase"></i></div>
+        <div>
+          <h3 style="color:var(--dark-blue);margin-bottom:10px;">
+            <span class="zh">成人英語學習者</span>
+            <span class="en">Adult English Learners</span>
+          </h3>
+          <p style="color:var(--text-light);font-size:.92rem;line-height:1.8;">
+            <span class="zh">無論您是希望提升職場英語、準備出國旅遊，還是只是想找回學語言的樂趣，我們都能陪您重新出發。</span>
+            <span class="en">Whether you want to improve workplace English, prepare for travel, or rediscover the joy of language learning — we're here to restart with you.</span>
+          </p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;gap:20px;align-items:flex-start;">
+        <div class="service-icon" style="flex-shrink:0"><i class="fas fa-graduation-cap"></i></div>
+        <div>
+          <h3 style="color:var(--dark-blue);margin-bottom:10px;">
+            <span class="zh">升學考生</span>
+            <span class="en">Exam-Bound Students</span>
+          </h3>
+          <p style="color:var(--text-light);font-size:.92rem;line-height:1.8;">
+            <span class="zh">面對學測、指考、英檢等重要考試，我們提供有系統的備考輔導，幫助您在壓力中穩定發揮。</span>
+            <span class="en">Facing GSAT, AST, GEPT or other major exams? We provide systematic prep coaching to help you perform with confidence under pressure.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section class="cta-section">
+  <div class="container">
+    <h2>
+      <span class="zh">讓我們一起開始</span>
+      <span class="en">Let's Start Together</span>
+    </h2>
+    <p>
+      <span class="zh">無論您現在的程度如何，知暖學習工作室都歡迎您。</span>
+      <span class="en">No matter where you are right now, Zhunuan welcomes you.</span>
+    </p>
+    <div class="cta-btns">
+      <a href="contact.html" class="btn btn-white">
+        <span class="zh"><i class="fas fa-paper-plane"></i> 聯絡我們</span>
+        <span class="en"><i class="fas fa-paper-plane"></i> Contact Us</span>
+      </a>
+      <a href="team.html" class="btn btn-outline-white">
+        <span class="zh"><i class="fas fa-users"></i> 認識我們的老師</span>
+        <span class="en"><i class="fas fa-users"></i> Meet Our Team</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3><span class="zh">知暖學習工作室</span><span class="en">Zhunuan Warm Learning Studio</span></h3>
+        <p>
+          <span class="zh">知足上進、溫暖而堅定<br>透過溫暖且有系統的學習方式，陪伴每個學習者找到屬於自己的學習之道。</span>
+          <span class="en">Grounded, warm, and steadfast.<br>Guiding every learner to discover their own path through warm, systematic education.</span>
+        </p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener" title="Line@"><i class="fab fa-line"></i></a>
+          <a href="mailto:zhinuanwarmstudio@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4><span class="zh">快速連結</span><span class="en">Quick Links</span></h4>
+        <ul>
+          <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+          <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+          <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+          <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+          <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+          <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4><span class="zh">聯絡資訊</span><span class="en">Contact</span></h4>
+        <div class="footer-contact-info">
+          <p><i class="fas fa-envelope"></i> <a href="mailto:zhinuanwarmstudio@gmail.com">zhinuanwarmstudio@gmail.com</a></p>
+          <p><i class="fas fa-phone"></i> <a href="tel:0910406387">0910-406-387</a></p>
+          <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener">@warmlearning</a></p>
+          <p><i class="fab fa-line"></i> <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener">Line@</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="zh">© 2024 知暖學習工作室 版權所有</p>
+      <p class="en">© 2024 Zhunuan Warm Learning Studio. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

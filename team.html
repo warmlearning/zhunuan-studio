@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>團隊介紹 | 知暖學習工作室</title>
+  <meta name="description" content="認識知暖學習工作室的創辦人 Penny 老師與執行助理 Henry。" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body lang="zh">
+
+<!-- ══ NAVBAR ══ -->
+<nav class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="navbar-logo">
+      <img src="logo.jpg" alt="知暖" onerror="this.style.display='none';document.getElementById('logoFallback').style.display='flex'">
+      <div class="logo-fallback" id="logoFallback" style="display:none">知</div>
+      <span class="zh">知暖學習工作室</span>
+      <span class="en">Zhunuan Studio</span>
+    </a>
+    <ul class="navbar-nav">
+      <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+      <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+      <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+      <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+      <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+      <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+    </ul>
+    <div class="navbar-right">
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中文</button>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+      <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+    <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+    <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+    <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+    <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+    <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+  </ul>
+  <div class="mobile-lang">
+    <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中文</button>
+    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+  </div>
+</div>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a>
+      <i class="fas fa-chevron-right" style="font-size:.6rem"></i>
+      <span class="zh">團隊介紹</span><span class="en">Team</span>
+    </div>
+    <h1><span class="zh">認識我們的團隊</span><span class="en">Meet Our Team</span></h1>
+    <p>
+      <span class="zh">每一位成員都懷抱著對教育的熱情，全心投入知暖的每一件事</span>
+      <span class="en">Every team member brings passion for education and wholehearted dedication to Zhunuan</span>
+    </p>
+  </div>
+</section>
+
+<!-- ══ TEAM MEMBERS ══ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <span class="zh">我們的夥伴</span>
+        <span class="en">Our People</span>
+      </span>
+      <h2>
+        <span class="zh">用溫暖陪伴您學習的人</span>
+        <span class="en">The People Here to Accompany Your Learning</span>
+      </h2>
+    </div>
+
+    <!-- Penny -->
+    <div class="card" style="max-width:760px;margin:0 auto 40px;display:flex;gap:40px;align-items:flex-start;">
+      <div style="flex-shrink:0;text-align:center;">
+        <div class="avatar" style="width:140px;height:140px;font-size:3.5rem;">👩‍🏫</div>
+        <div style="margin-top:12px;">
+          <div style="font-size:.78rem;font-weight:700;color:var(--teal);letter-spacing:.06em;">
+            <span class="zh">創辦人</span>
+            <span class="en">Founder</span>
+          </div>
+        </div>
+      </div>
+      <div style="flex:1;">
+        <h2 style="color:var(--dark-blue);margin-bottom:6px;font-size:1.8rem;">
+          <span class="zh">Penny 老師</span>
+          <span class="en">Teacher Penny</span>
+        </h2>
+        <p style="color:var(--teal);font-weight:700;font-size:.95rem;margin-bottom:18px;">
+          <span class="zh">創辦人 · 英語教學專家 · 學習引導師</span>
+          <span class="en">Founder · English Teaching Expert · Learning Coach</span>
+        </p>
+        <p style="color:var(--text-light);font-size:.95rem;line-height:1.9;margin-bottom:14px;">
+          <span class="zh">Penny 老師擁有豐富的英語教學經驗，擅長以溫暖而有系統的方式引導學生學習。她深信每一位學習者都有無限潛能，只是需要找到屬於自己的方法。</span>
+          <span class="en">Teacher Penny brings rich English teaching experience and excels at guiding students with warmth and structure. She firmly believes every learner has unlimited potential — they just need to find their own method.</span>
+        </p>
+        <p style="color:var(--text-light);font-size:.95rem;line-height:1.9;margin-bottom:20px;">
+          <span class="zh">在成立知暖學習工作室之前，Penny 老師已服務過數十位不同年齡、程度與需求的學員，累積了豐富的個人化教學經驗。她特別擅長目標設定與學習方法引導，幫助許多原本對英語失去信心的學生重新找回學習的熱情。</span>
+          <span class="en">Before founding Zhunuan, Teacher Penny served dozens of students across different ages, levels, and needs, building deep expertise in personalized instruction. She specializes in goal-setting and learning method coaching, helping many students who had lost confidence in English rediscover their passion for learning.</span>
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;">
+          <span style="display:inline-flex;align-items:center;gap:6px;background:var(--light-blue);color:var(--dark-blue);font-size:.78rem;font-weight:700;padding:5px 14px;border-radius:14px;">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <span class="zh">3年+ 教學經驗</span>
+            <span class="en">3+ Years Teaching</span>
+          </span>
+          <span style="display:inline-flex;align-items:center;gap:6px;background:rgba(74,155,143,.1);color:var(--teal);font-size:.78rem;font-weight:700;padding:5px 14px;border-radius:14px;">
+            <i class="fas fa-users"></i>
+            <span class="zh">50+ 學員</span>
+            <span class="en">50+ Students</span>
+          </span>
+          <span style="display:inline-flex;align-items:center;gap:6px;background:rgba(44,75,110,.08);color:var(--dark-blue);font-size:.78rem;font-weight:700;padding:5px 14px;border-radius:14px;">
+            <i class="fas fa-star"></i>
+            <span class="zh">95% 好評率</span>
+            <span class="en">95% Satisfaction</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Henry -->
+    <div class="card" style="max-width:760px;margin:0 auto;display:flex;gap:40px;align-items:flex-start;">
+      <div style="flex-shrink:0;text-align:center;">
+        <div class="avatar" style="width:140px;height:140px;font-size:3.5rem;background:linear-gradient(135deg,#B8D8E8,#2C4B6E);">👨‍💼</div>
+        <div style="margin-top:12px;">
+          <div style="font-size:.78rem;font-weight:700;color:var(--teal);letter-spacing:.06em;">
+            <span class="zh">執行助理</span>
+            <span class="en">Operations</span>
+          </div>
+        </div>
+      </div>
+      <div style="flex:1;">
+        <h2 style="color:var(--dark-blue);margin-bottom:6px;font-size:1.8rem;">Henry</h2>
+        <p style="color:var(--teal);font-weight:700;font-size:.95rem;margin-bottom:18px;">
+          <span class="zh">執行助理 · 行政與營運支援</span>
+          <span class="en">Executive Assistant · Administration & Operations</span>
+        </p>
+        <p style="color:var(--text-light);font-size:.95rem;line-height:1.9;margin-bottom:14px;">
+          <span class="zh">Henry 負責知暖學習工作室的行政事務與日常營運，確保每一位學員都能獲得順暢、舒適的學習體驗。從課程安排、溝通協調到品牌推廣，Henry 都全力支援。</span>
+          <span class="en">Henry handles administrative affairs and daily operations at Zhunuan, ensuring every student enjoys a smooth and comfortable learning experience — from scheduling and coordination to brand promotion.</span>
+        </p>
+        <p style="color:var(--text-light);font-size:.95rem;line-height:1.9;margin-bottom:20px;">
+          <span class="zh">他相信一個好的學習環境不只需要優秀的老師，也需要完善的後勤支援。正是這樣的信念，讓他全心投入知暖每一個細節的打磨。</span>
+          <span class="en">He believes a great learning environment requires not just excellent teaching but also strong back-office support. This belief drives his wholehearted attention to every detail at Zhunuan.</span>
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;">
+          <span style="display:inline-flex;align-items:center;gap:6px;background:var(--light-blue);color:var(--dark-blue);font-size:.78rem;font-weight:700;padding:5px 14px;border-radius:14px;">
+            <i class="fas fa-cogs"></i>
+            <span class="zh">行政與營運</span>
+            <span class="en">Admin & Ops</span>
+          </span>
+          <span style="display:inline-flex;align-items:center;gap:6px;background:rgba(74,155,143,.1);color:var(--teal);font-size:.78rem;font-weight:700;padding:5px 14px;border-radius:14px;">
+            <i class="fas fa-bullhorn"></i>
+            <span class="zh">品牌推廣</span>
+            <span class="en">Brand Promotion</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ CULTURE ══ -->
+<section class="section" style="background:#fff;padding-top:88px;padding-bottom:88px;">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <span class="zh">我們的文化</span>
+        <span class="en">Our Culture</span>
+      </span>
+      <h2>
+        <span class="zh">知暖的每一天</span>
+        <span class="en">Every Day at Zhunuan</span>
+      </h2>
+      <p>
+        <span class="zh">小而精、溫而堅，這是知暖團隊的日常樣貌。</span>
+        <span class="en">Small but focused, warm yet steadfast — this is the everyday spirit of the Zhunuan team.</span>
+      </p>
+    </div>
+    <div class="grid-3">
+      <div class="card value-card">
+        <div class="value-icon teal"><i class="fas fa-heart"></i></div>
+        <h3 style="color:var(--dark-blue);margin-bottom:10px;">
+          <span class="zh">以學員為中心</span>
+          <span class="en">Student-Centered</span>
+        </h3>
+        <p style="color:var(--text-light);font-size:.88rem;">
+          <span class="zh">每一個決定，都以「對學員最好」為優先考量。</span>
+          <span class="en">Every decision prioritizes what's best for our students.</span>
+        </p>
+      </div>
+      <div class="card value-card">
+        <div class="value-icon blue"><i class="fas fa-lightbulb"></i></div>
+        <h3 style="color:var(--dark-blue);margin-bottom:10px;">
+          <span class="zh">持續成長</span>
+          <span class="en">Continuous Growth</span>
+        </h3>
+        <p style="color:var(--text-light);font-size:.88rem;">
+          <span class="zh">我們自己也是學習者，不斷進修、反思，讓服務品質持續提升。</span>
+          <span class="en">We're learners too — always studying, reflecting, and improving our service quality.</span>
+        </p>
+      </div>
+      <div class="card value-card">
+        <div class="value-icon warm"><i class="fas fa-handshake"></i></div>
+        <h3 style="color:var(--dark-blue);margin-bottom:10px;">
+          <span class="zh">真誠溝通</span>
+          <span class="en">Genuine Communication</span>
+        </h3>
+        <p style="color:var(--text-light);font-size:.88rem;">
+          <span class="zh">與學員保持開放、誠實的溝通，讓每段學習關係都建立在信任上。</span>
+          <span class="en">Open and honest communication with students, building every learning relationship on trust.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section class="cta-section">
+  <div class="container">
+    <h2>
+      <span class="zh">想認識我們更多？</span>
+      <span class="en">Want to Know Us Better?</span>
+    </h2>
+    <p>
+      <span class="zh">歡迎直接聯繫我們，Penny 老師很樂意與您聊聊您的學習目標。</span>
+      <span class="en">Feel free to reach out — Teacher Penny would love to chat about your learning goals.</span>
+    </p>
+    <div class="cta-btns">
+      <a href="contact.html" class="btn btn-white">
+        <span class="zh"><i class="fas fa-paper-plane"></i> 聯絡我們</span>
+        <span class="en"><i class="fas fa-paper-plane"></i> Contact Us</span>
+      </a>
+      <a href="services.html" class="btn btn-outline-white">
+        <span class="zh"><i class="fas fa-book"></i> 查看課程服務</span>
+        <span class="en"><i class="fas fa-book"></i> View Services</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3><span class="zh">知暖學習工作室</span><span class="en">Zhunuan Warm Learning Studio</span></h3>
+        <p>
+          <span class="zh">知足上進、溫暖而堅定<br>透過溫暖且有系統的學習方式，陪伴每個學習者找到屬於自己的學習之道。</span>
+          <span class="en">Grounded, warm, and steadfast.<br>Guiding every learner to discover their own path through warm, systematic education.</span>
+        </p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener" title="Line@"><i class="fab fa-line"></i></a>
+          <a href="mailto:zhinuanwarmstudio@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4><span class="zh">快速連結</span><span class="en">Quick Links</span></h4>
+        <ul>
+          <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+          <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+          <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+          <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+          <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+          <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4><span class="zh">聯絡資訊</span><span class="en">Contact</span></h4>
+        <div class="footer-contact-info">
+          <p><i class="fas fa-envelope"></i> <a href="mailto:zhinuanwarmstudio@gmail.com">zhinuanwarmstudio@gmail.com</a></p>
+          <p><i class="fas fa-phone"></i> <a href="tel:0910406387">0910-406-387</a></p>
+          <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener">@warmlearning</a></p>
+          <p><i class="fab fa-line"></i> <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener">Line@</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="zh">© 2024 知暖學習工作室 版權所有</p>
+      <p class="en">© 2024 Zhunuan Warm Learning Studio. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

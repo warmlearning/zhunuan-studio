@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>課程服務 | 知暖學習工作室</title>
+  <meta name="description" content="知暖學習工作室提供一對一家教、小班課程、升學英語輔導、成人英語會話、學習方法輔導等多元服務。" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body lang="zh">
+
+<!-- ══ NAVBAR ══ -->
+<nav class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="navbar-logo">
+      <img src="logo.jpg" alt="知暖" onerror="this.style.display='none';document.getElementById('logoFallback').style.display='flex'">
+      <div class="logo-fallback" id="logoFallback" style="display:none">知</div>
+      <span class="zh">知暖學習工作室</span>
+      <span class="en">Zhunuan Studio</span>
+    </a>
+    <ul class="navbar-nav">
+      <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+      <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+      <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+      <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+      <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+      <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+    </ul>
+    <div class="navbar-right">
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中文</button>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+      <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+    <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+    <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+    <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+    <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+    <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+  </ul>
+  <div class="mobile-lang">
+    <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中文</button>
+    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+  </div>
+</div>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a>
+      <i class="fas fa-chevron-right" style="font-size:.6rem"></i>
+      <span class="zh">課程服務</span><span class="en">Services</span>
+    </div>
+    <h1><span class="zh">課程服務</span><span class="en">Our Services</span></h1>
+    <p>
+      <span class="zh">為您量身打造的英語學習方案，從考試備考到日常會話，全方位陪伴</span>
+      <span class="en">Tailored English learning solutions — from exam prep to daily conversation, we cover it all</span>
+    </p>
+  </div>
+</section>
+
+<!-- ══ SERVICES ══ -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <span class="zh">全方位英語學習</span>
+        <span class="en">Comprehensive English Learning</span>
+      </span>
+      <h2>
+        <span class="zh">選擇最適合您的課程</span>
+        <span class="en">Find the Right Course for You</span>
+      </h2>
+      <p>
+        <span class="zh">每一項服務都由 Penny 老師親自規劃，融合教育理念與實務經驗。</span>
+        <span class="en">Every service is personally designed by Teacher Penny, blending educational philosophy with real-world experience.</span>
+      </p>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:28px;">
+
+      <!-- 1 一對一家教 -->
+      <div class="card service-detail-card">
+        <div class="card-top">
+          <div class="service-icon"><i class="fas fa-user-graduate"></i></div>
+          <div>
+            <h3><span class="zh">一對一家教</span><span class="en">1-on-1 Private Tutoring</span></h3>
+            <span class="target-badge">
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="zh">線上 / 線下皆可</span>
+              <span class="en">Online / In-Person</span>
+            </span>
+          </div>
+        </div>
+        <p>
+          <span class="zh">這是知暖最核心的服務。每一堂課都從您的程度、目標與學習習慣出發，量身規劃專屬課程內容與進度。老師會在每次上課前仔細備課，課後提供學習回饋，讓您每堂課都有清晰的進步感。</span>
+          <span class="en">Our most personal service. Every lesson starts from your level, goals, and learning style. Teacher prepares thoroughly before each session and provides post-class feedback, so you feel clear progress every time.</span>
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;">
+          <span class="target-badge"><i class="fas fa-users"></i> <span class="zh">適合：所有程度學習者</span><span class="en">For: All Levels</span></span>
+          <span class="target-badge"><i class="fas fa-clock"></i> <span class="zh">彈性時間安排</span><span class="en">Flexible Scheduling</span></span>
+          <span class="target-badge"><i class="fas fa-star"></i> <span class="zh">個人化課程設計</span><span class="en">Personalized Curriculum</span></span>
+        </div>
+      </div>
+
+      <!-- 2 小班制 -->
+      <div class="card service-detail-card">
+        <div class="card-top">
+          <div class="service-icon"><i class="fas fa-users"></i></div>
+          <div>
+            <h3><span class="zh">小班制課程</span><span class="en">Small Group Classes</span></h3>
+            <span class="target-badge">
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="zh">線上 / 線下皆可</span>
+              <span class="en">Online / In-Person</span>
+            </span>
+          </div>
+        </div>
+        <p>
+          <span class="zh">小班制（3–6人）設計，讓學員在互動與討論中互相激勵，同時又能獲得老師的個別關注。課程以主題式討論、角色扮演、情境練習為主，讓英語在真實交流中自然習得。</span>
+          <span class="en">Designed for 3–6 students, small group classes combine peer motivation with individual teacher attention. Lessons use thematic discussions, role-plays, and situational practice to acquire English naturally through real interaction.</span>
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;">
+          <span class="target-badge"><i class="fas fa-users"></i> <span class="zh">3–6 人小班</span><span class="en">3–6 Students</span></span>
+          <span class="target-badge"><i class="fas fa-comments"></i> <span class="zh">互動討論為主</span><span class="en">Discussion-Based</span></span>
+          <span class="target-badge"><i class="fas fa-coins"></i> <span class="zh">費用相對實惠</span><span class="en">More Affordable</span></span>
+        </div>
+      </div>
+
+      <!-- 3 升學英語 -->
+      <div class="card service-detail-card">
+        <div class="card-top">
+          <div class="service-icon"><i class="fas fa-book-open"></i></div>
+          <div>
+            <h3><span class="zh">升學英語輔導</span><span class="en">Exam Preparation</span></h3>
+            <span class="target-badge" style="background:rgba(44,75,110,.1);color:var(--dark-blue);">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="zh">升學考生專屬</span>
+              <span class="en">For Students</span>
+            </span>
+          </div>
+        </div>
+        <p>
+          <span class="zh">專為學測、指考、英檢（GEPT）等考試設計的備考課程。老師依照各考試的題型與評分標準，系統性地強化閱讀、寫作、聽力、口語等各項能力，並定期模擬考試，讓您在正式上場時胸有成竹。</span>
+          <span class="en">Purpose-built preparation for GSAT, AST, GEPT, and other exams. Systematically strengthen reading, writing, listening, and speaking based on each exam's format and rubric, with regular mock tests to build exam-day confidence.</span>
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;">
+          <span class="target-badge"><i class="fas fa-file-alt"></i> <span class="zh">學測 / 指考 / 英檢</span><span class="en">GSAT / AST / GEPT</span></span>
+          <span class="target-badge"><i class="fas fa-tasks"></i> <span class="zh">模擬考試練習</span><span class="en">Mock Exams</span></span>
+          <span class="target-badge"><i class="fas fa-chart-line"></i> <span class="zh">分數系統提升</span><span class="en">Score-Focused</span></span>
+        </div>
+      </div>
+
+      <!-- 4 成人英語會話 -->
+      <div class="card service-detail-card">
+        <div class="card-top">
+          <div class="service-icon"><i class="fas fa-comments"></i></div>
+          <div>
+            <h3><span class="zh">成人英語會話</span><span class="en">Adult English Conversation</span></h3>
+            <span class="target-badge" style="background:rgba(74,155,143,.12);color:var(--teal);">
+              <i class="fas fa-briefcase"></i>
+              <span class="zh">成人學習者</span>
+              <span class="en">For Adults</span>
+            </span>
+          </div>
+        </div>
+        <p>
+          <span class="zh">以真實生活場景為核心，課程內容涵蓋日常會話、國際議題討論、TED 影片賞析、電影影集主題探討等。不只是練習說英語，更是透過有深度的內容，培養用英語思考、表達的能力。</span>
+          <span class="en">Rooted in real-life scenarios, covering everyday conversation, global issues, TED talks, and movies/TV shows. Beyond just speaking practice — building the ability to truly think and express in English.</span>
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;">
+          <span class="target-badge"><i class="fas fa-film"></i> <span class="zh">TED / 電影主題</span><span class="en">TED / Movie Themes</span></span>
+          <span class="target-badge"><i class="fas fa-globe"></i> <span class="zh">國際議題討論</span><span class="en">Global Topics</span></span>
+          <span class="target-badge"><i class="fas fa-microphone"></i> <span class="zh">口語表達訓練</span><span class="en">Speaking Focus</span></span>
+        </div>
+      </div>
+
+      <!-- 5 學習方法輔導 -->
+      <div class="card service-detail-card">
+        <div class="card-top">
+          <div class="service-icon"><i class="fas fa-compass"></i></div>
+          <div>
+            <h3><span class="zh">學習方法輔導</span><span class="en">Study Method Coaching</span></h3>
+            <span class="target-badge">
+              <i class="fas fa-heart"></i>
+              <span class="zh">所有學習者</span>
+              <span class="en">For Everyone</span>
+            </span>
+          </div>
+        </div>
+        <p>
+          <span class="zh">許多學生學不好，不是因為不夠聰明，而是因為還沒找到適合自己的學習方法。我們提供一對一的學習方法診斷，引導您找到方向、設定目標，陪伴您一步一步達成，養成終身受用的自學能力。</span>
+          <span class="en">Many students struggle not because they lack intelligence, but because they haven't found the right method. We offer one-on-one learning diagnostics to find your direction, set goals, and accompany you step by step toward self-directed lifelong learning.</span>
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;">
+          <span class="target-badge"><i class="fas fa-bullseye"></i> <span class="zh">目標設定</span><span class="en">Goal Setting</span></span>
+          <span class="target-badge"><i class="fas fa-brain"></i> <span class="zh">學習方法診斷</span><span class="en">Method Diagnosis</span></span>
+          <span class="target-badge"><i class="fas fa-seedling"></i> <span class="zh">自學能力培養</span><span class="en">Self-Learning Skills</span></span>
+        </div>
+      </div>
+
+      <!-- 6 線上課程 -->
+      <div class="card service-detail-card" style="border:2px dashed var(--light-blue);">
+        <div class="card-top">
+          <div class="service-icon" style="background:linear-gradient(135deg,#f8c97a,#e67e22)"><i class="fas fa-laptop"></i></div>
+          <div>
+            <h3>
+              <span class="zh">線上課程</span>
+              <span class="en">Online Courses</span>
+              <span class="coming-soon-badge"><i class="fas fa-clock"></i> <span class="zh">開發中</span><span class="en">Coming Soon</span></span>
+            </h3>
+            <span class="target-badge" style="background:rgba(255,183,77,.15);color:#e67e22;">
+              <i class="fas fa-wifi"></i>
+              <span class="zh">全平台支援</span>
+              <span class="en">All Platforms</span>
+            </span>
+          </div>
+        </div>
+        <p>
+          <span class="zh">我們正在精心開發系統化的線上課程，讓您隨時隨地都能學習，不受時間與地點限制。課程將涵蓋文法基礎、口語練習、閱讀技巧等多個主題，預計近期推出，請持續關注！</span>
+          <span class="en">We're carefully developing systematic online courses, so you can learn anytime, anywhere — free from time and location constraints. Courses will cover grammar foundations, speaking practice, reading skills, and more. Stay tuned for the launch!</span>
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;">
+          <span class="coming-soon-badge"><i class="fas fa-bell"></i> <span class="zh">敬請期待</span><span class="en">Stay Tuned</span></span>
+          <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;background:rgba(74,155,143,.1);color:var(--teal);font-size:.78rem;font-weight:700;padding:5px 14px;border-radius:14px;transition:var(--transition);">
+            <i class="fab fa-instagram"></i> <span class="zh">追蹤 Instagram 獲取最新消息</span><span class="en">Follow Instagram for Updates</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ HOW IT WORKS ══ -->
+<section class="section" style="background:#fff;padding-top:88px;padding-bottom:88px;">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <span class="zh">如何開始</span>
+        <span class="en">How to Start</span>
+      </span>
+      <h2>
+        <span class="zh">三步驟，輕鬆開始學習</span>
+        <span class="en">3 Simple Steps to Get Started</span>
+      </h2>
+    </div>
+    <div class="grid-3">
+      <div class="card text-center">
+        <div style="width:56px;height:56px;border-radius:50%;background:var(--light-blue);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:1.3rem;font-weight:900;color:var(--dark-blue);font-family:'Noto Serif TC',serif;">1</div>
+        <h3 style="color:var(--dark-blue);margin-bottom:10px;">
+          <span class="zh">聯繫我們</span>
+          <span class="en">Reach Out</span>
+        </h3>
+        <p style="color:var(--text-light);font-size:.9rem;">
+          <span class="zh">透過 Line@、Instagram 或 Email 與我們聯繫，告訴我們您的學習需求。</span>
+          <span class="en">Contact us via Line@, Instagram, or Email and tell us about your learning needs.</span>
+        </p>
+      </div>
+      <div class="card text-center">
+        <div style="width:56px;height:56px;border-radius:50%;background:var(--teal);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:1.3rem;font-weight:900;color:#fff;font-family:'Noto Serif TC',serif;">2</div>
+        <h3 style="color:var(--dark-blue);margin-bottom:10px;">
+          <span class="zh">免費諮詢</span>
+          <span class="en">Free Consultation</span>
+        </h3>
+        <p style="color:var(--text-light);font-size:.9rem;">
+          <span class="zh">安排一次免費諮詢，老師將了解您的程度與目標，為您規劃最適合的學習方案。</span>
+          <span class="en">Schedule a free consultation. Teacher will assess your level and goals, then plan the best approach for you.</span>
+        </p>
+      </div>
+      <div class="card text-center">
+        <div style="width:56px;height:56px;border-radius:50%;background:var(--dark-blue);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:1.3rem;font-weight:900;color:#fff;font-family:'Noto Serif TC',serif;">3</div>
+        <h3 style="color:var(--dark-blue);margin-bottom:10px;">
+          <span class="zh">開始學習</span>
+          <span class="en">Start Learning</span>
+        </h3>
+        <p style="color:var(--text-light);font-size:.9rem;">
+          <span class="zh">確認課程方案後即可排課，在溫暖的陪伴中開始您的學習旅程！</span>
+          <span class="en">Confirm your plan, schedule your first class, and begin your learning journey with warmth and support!</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section class="cta-section">
+  <div class="container">
+    <h2>
+      <span class="zh">找到最適合您的課程</span>
+      <span class="en">Find Your Perfect Course</span>
+    </h2>
+    <p>
+      <span class="zh">不確定哪種課程適合您？歡迎直接聯繫我們，免費諮詢！</span>
+      <span class="en">Not sure which course is right for you? Contact us for a free consultation!</span>
+    </p>
+    <div class="cta-btns">
+      <a href="contact.html" class="btn btn-white">
+        <span class="zh"><i class="fas fa-paper-plane"></i> 免費諮詢</span>
+        <span class="en"><i class="fas fa-paper-plane"></i> Free Consultation</span>
+      </a>
+      <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener" class="btn btn-outline-white">
+        <i class="fab fa-line"></i> Line@
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3><span class="zh">知暖學習工作室</span><span class="en">Zhunuan Warm Learning Studio</span></h3>
+        <p>
+          <span class="zh">知足上進、溫暖而堅定<br>透過溫暖且有系統的學習方式，陪伴每個學習者找到屬於自己的學習之道。</span>
+          <span class="en">Grounded, warm, and steadfast.<br>Guiding every learner to discover their own path through warm, systematic education.</span>
+        </p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener" title="Line@"><i class="fab fa-line"></i></a>
+          <a href="mailto:zhinuanwarmstudio@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4><span class="zh">快速連結</span><span class="en">Quick Links</span></h4>
+        <ul>
+          <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+          <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+          <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+          <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+          <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+          <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4><span class="zh">聯絡資訊</span><span class="en">Contact</span></h4>
+        <div class="footer-contact-info">
+          <p><i class="fas fa-envelope"></i> <a href="mailto:zhinuanwarmstudio@gmail.com">zhinuanwarmstudio@gmail.com</a></p>
+          <p><i class="fas fa-phone"></i> <a href="tel:0910406387">0910-406-387</a></p>
+          <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener">@warmlearning</a></p>
+          <p><i class="fab fa-line"></i> <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener">Line@</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="zh">© 2024 知暖學習工作室 版權所有</p>
+      <p class="en">© 2024 Zhunuan Warm Learning Studio. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

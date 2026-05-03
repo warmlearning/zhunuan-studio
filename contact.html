@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>聯絡我們 | 知暖學習工作室</title>
+  <meta name="description" content="聯絡知暖學習工作室：Email、電話、Instagram、Line@，或填寫表單，我們很快會回覆您。" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body lang="zh">
+
+<!-- ══ NAVBAR ══ -->
+<nav class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="navbar-logo">
+      <img src="logo.jpg" alt="知暖" onerror="this.style.display='none';document.getElementById('logoFallback').style.display='flex'">
+      <div class="logo-fallback" id="logoFallback" style="display:none">知</div>
+      <span class="zh">知暖學習工作室</span>
+      <span class="en">Zhunuan Studio</span>
+    </a>
+    <ul class="navbar-nav">
+      <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+      <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+      <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+      <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+      <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+      <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+    </ul>
+    <div class="navbar-right">
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="zh" onclick="setLang('zh')">中文</button>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+      <button class="hamburger" id="hamburger" onclick="toggleMobileNav()" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+    <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+    <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+    <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+    <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+    <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+  </ul>
+  <div class="mobile-lang">
+    <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中文</button>
+    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+  </div>
+</div>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a>
+      <i class="fas fa-chevron-right" style="font-size:.6rem"></i>
+      <span class="zh">聯絡我們</span><span class="en">Contact</span>
+    </div>
+    <h1><span class="zh">聯絡我們</span><span class="en">Contact Us</span></h1>
+    <p>
+      <span class="zh">有任何問題或想了解課程？我們很樂意與您聊聊！</span>
+      <span class="en">Have questions or want to learn more about our courses? We'd love to chat!</span>
+    </p>
+  </div>
+</section>
+
+<!-- ══ CONTACT MAIN ══ -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Left: Contact Info -->
+      <div>
+        <div class="section-tag" style="margin-bottom:20px;">
+          <span class="zh">聯絡方式</span>
+          <span class="en">Get in Touch</span>
+        </div>
+        <h2 style="color:var(--dark-blue);margin-bottom:10px;font-size:1.6rem;">
+          <span class="zh">多種方式，隨時聯繫</span>
+          <span class="en">Multiple Ways to Reach Us</span>
+        </h2>
+        <p style="color:var(--text-light);font-size:.95rem;margin-bottom:28px;line-height:1.8;">
+          <span class="zh">歡迎透過以下任何一種方式聯繫我們，我們通常會在 24 小時內回覆。</span>
+          <span class="en">Feel free to contact us through any of the following channels. We typically respond within 24 hours.</span>
+        </p>
+
+        <!-- Email -->
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <h4><span class="zh">電子郵件</span><span class="en">Email</span></h4>
+            <a href="mailto:zhinuanwarmstudio@gmail.com">zhinuanwarmstudio@gmail.com</a>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <h4><span class="zh">電話</span><span class="en">Phone</span></h4>
+            <a href="tel:0910406387">0910-406-387</a>
+          </div>
+        </div>
+
+        <!-- Instagram -->
+        <div class="contact-info-item">
+          <div class="contact-icon" style="background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div>
+            <h4>Instagram</h4>
+            <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener">@warmlearning</a>
+          </div>
+        </div>
+
+        <!-- Line@ -->
+        <div class="contact-info-item">
+          <div class="contact-icon" style="background:#00b900;"><i class="fab fa-line"></i></div>
+          <div>
+            <h4>Line@</h4>
+            <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener">
+              <span class="zh">點此加入 Line@</span>
+              <span class="en">Add us on Line@</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Action Buttons -->
+        <div style="display:flex;flex-direction:column;gap:12px;margin-top:8px;">
+          <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener" class="btn btn-primary" style="justify-content:center;">
+            <i class="fab fa-line"></i>
+            <span class="zh">立即加入 Line@ 諮詢</span>
+            <span class="en">Chat on Line@ Now</span>
+          </a>
+          <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" class="btn btn-outline" style="justify-content:center;">
+            <i class="fab fa-instagram"></i>
+            <span class="zh">追蹤 Instagram</span>
+            <span class="en">Follow on Instagram</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Contact Form -->
+      <div class="contact-form">
+        <h3>
+          <span class="zh">傳訊息給我們</span>
+          <span class="en">Send Us a Message</span>
+        </h3>
+        <form id="contactForm" novalidate>
+          <div class="grid-2" style="gap:16px;">
+            <div class="form-group">
+              <label for="name">
+                <span class="zh">姓名 *</span>
+                <span class="en">Name *</span>
+              </label>
+              <input type="text" id="name" name="name" required
+                placeholder-zh="您的姓名" placeholder-en="Your name"
+                placeholder="您的姓名" />
+            </div>
+            <div class="form-group">
+              <label for="phone">
+                <span class="zh">電話</span>
+                <span class="en">Phone</span>
+              </label>
+              <input type="tel" id="phone" name="phone"
+                placeholder-zh="0912-345-678" placeholder-en="Your phone number"
+                placeholder="0912-345-678" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">
+              <span class="zh">電子郵件 *</span>
+              <span class="en">Email *</span>
+            </label>
+            <input type="email" id="email" name="email" required
+              placeholder-zh="your@email.com" placeholder-en="your@email.com"
+              placeholder="your@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="interest">
+              <span class="zh">感興趣的課程</span>
+              <span class="en">Course of Interest</span>
+            </label>
+            <select id="interest" name="interest">
+              <option value="" class="zh">請選擇...</option>
+              <option value="" class="en">Please select...</option>
+              <option value="1on1">
+                <span class="zh">一對一家教</span>
+                <span class="en">1-on-1 Tutoring</span>
+              </option>
+              <option value="group">
+                <span class="zh">小班制課程</span>
+                <span class="en">Small Group Classes</span>
+              </option>
+              <option value="exam">
+                <span class="zh">升學英語輔導</span>
+                <span class="en">Exam Preparation</span>
+              </option>
+              <option value="adult">
+                <span class="zh">成人英語會話</span>
+                <span class="en">Adult Conversation</span>
+              </option>
+              <option value="method">
+                <span class="zh">學習方法輔導</span>
+                <span class="en">Study Method Coaching</span>
+              </option>
+              <option value="other">
+                <span class="zh">其他 / 不確定</span>
+                <span class="en">Other / Not Sure</span>
+              </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">
+              <span class="zh">訊息內容 *</span>
+              <span class="en">Message *</span>
+            </label>
+            <textarea id="message" name="message" required
+              placeholder-zh="請告訴我們您的學習目標、目前程度，或任何您想詢問的問題…"
+              placeholder-en="Tell us about your learning goals, current level, or any questions you have…"
+              placeholder="請告訴我們您的學習目標、目前程度，或任何您想詢問的問題…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;padding:14px;">
+            <i class="fas fa-paper-plane"></i>
+            <span class="zh">送出訊息</span>
+            <span class="en">Send Message</span>
+          </button>
+          <p class="form-note">
+            <span class="zh">我們通常在 24 小時內回覆。您也可以直接透過 Line@ 即時聯繫我們。</span>
+            <span class="en">We typically respond within 24 hours. You can also reach us instantly via Line@.</span>
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FAQ ══ -->
+<section class="section" style="background:#fff;padding-top:80px;padding-bottom:80px;">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">
+        <span class="zh">常見問題</span>
+        <span class="en">FAQ</span>
+      </span>
+      <h2>
+        <span class="zh">您可能想知道的</span>
+        <span class="en">You Might Want to Know</span>
+      </h2>
+    </div>
+    <div style="max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:16px;">
+
+      <div class="card" style="padding:24px 28px;">
+        <h3 style="color:var(--dark-blue);margin-bottom:8px;font-size:1rem;display:flex;align-items:center;gap:10px;">
+          <span style="color:var(--teal);font-size:1.2rem;">Q</span>
+          <span class="zh">課程費用是多少？</span>
+          <span class="en">How much do the courses cost?</span>
+        </h3>
+        <p style="color:var(--text-light);font-size:.9rem;line-height:1.8;padding-left:28px;">
+          <span class="zh">課程費用依類型和需求而定。請直接聯繫我們，老師會根據您的需求提供最適合的方案與報價。</span>
+          <span class="en">Pricing varies by course type and needs. Contact us directly and Teacher Penny will provide the best plan and quote for you.</span>
+        </p>
+      </div>
+
+      <div class="card" style="padding:24px 28px;">
+        <h3 style="color:var(--dark-blue);margin-bottom:8px;font-size:1rem;display:flex;align-items:center;gap:10px;">
+          <span style="color:var(--teal);font-size:1.2rem;">Q</span>
+          <span class="zh">可以先試上一堂課嗎？</span>
+          <span class="en">Can I try a trial class first?</span>
+        </h3>
+        <p style="color:var(--text-light);font-size:.9rem;line-height:1.8;padding-left:28px;">
+          <span class="zh">我們提供免費的初次諮詢，讓老師了解您的程度與需求，並為您規劃課程方向。歡迎先聯繫我們安排！</span>
+          <span class="en">We offer a free initial consultation where Teacher Penny assesses your level and needs to plan your learning direction. Contact us to schedule one!</span>
+        </p>
+      </div>
+
+      <div class="card" style="padding:24px 28px;">
+        <h3 style="color:var(--dark-blue);margin-bottom:8px;font-size:1rem;display:flex;align-items:center;gap:10px;">
+          <span style="color:var(--teal);font-size:1.2rem;">Q</span>
+          <span class="zh">線上課程用什麼平台上課？</span>
+          <span class="en">What platform is used for online classes?</span>
+        </h3>
+        <p style="color:var(--text-light);font-size:.9rem;line-height:1.8;padding-left:28px;">
+          <span class="zh">主要使用 Google Meet 或 Zoom，依學員偏好彈性調整。只需要一台有鏡頭和麥克風的電腦或手機即可。</span>
+          <span class="en">We primarily use Google Meet or Zoom, flexible to your preference. You just need a computer or phone with a camera and microphone.</span>
+        </p>
+      </div>
+
+      <div class="card" style="padding:24px 28px;">
+        <h3 style="color:var(--dark-blue);margin-bottom:8px;font-size:1rem;display:flex;align-items:center;gap:10px;">
+          <span style="color:var(--teal);font-size:1.2rem;">Q</span>
+          <span class="zh">英語程度很差也可以報名嗎？</span>
+          <span class="en">Can I enroll even if my English is very basic?</span>
+        </h3>
+        <p style="color:var(--text-light);font-size:.9rem;line-height:1.8;padding-left:28px;">
+          <span class="zh">當然！知暖歡迎所有程度的學習者。我們會從您現在的起點出發，用最適合您的方式幫助您進步。</span>
+          <span class="en">Absolutely! Zhunuan welcomes learners of all levels. We start from exactly where you are and help you progress in the way that works best for you.</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section class="cta-section">
+  <div class="container">
+    <h2>
+      <span class="zh">還在猶豫嗎？先來聊聊吧！</span>
+      <span class="en">Still Hesitating? Let's Just Chat!</span>
+    </h2>
+    <p>
+      <span class="zh">不需要做任何承諾，只是一次輕鬆的對話，讓我們了解您的需求。</span>
+      <span class="en">No commitments needed — just a relaxed conversation so we can understand what you're looking for.</span>
+    </p>
+    <div class="cta-btns">
+      <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener" class="btn btn-white">
+        <i class="fab fa-line"></i> Line@
+      </a>
+      <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" class="btn btn-outline-white">
+        <i class="fab fa-instagram"></i>
+        <span class="zh">Instagram 私訊</span>
+        <span class="en">Instagram DM</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3><span class="zh">知暖學習工作室</span><span class="en">Zhunuan Warm Learning Studio</span></h3>
+        <p>
+          <span class="zh">知足上進、溫暖而堅定<br>透過溫暖且有系統的學習方式，陪伴每個學習者找到屬於自己的學習之道。</span>
+          <span class="en">Grounded, warm, and steadfast.<br>Guiding every learner to discover their own path through warm, systematic education.</span>
+        </p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener" title="Line@"><i class="fab fa-line"></i></a>
+          <a href="mailto:zhinuanwarmstudio@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4><span class="zh">快速連結</span><span class="en">Quick Links</span></h4>
+        <ul>
+          <li><a href="index.html"><span class="zh">首頁</span><span class="en">Home</span></a></li>
+          <li><a href="about.html"><span class="zh">關於我們</span><span class="en">About</span></a></li>
+          <li><a href="services.html"><span class="zh">課程服務</span><span class="en">Services</span></a></li>
+          <li><a href="team.html"><span class="zh">團隊介紹</span><span class="en">Team</span></a></li>
+          <li><a href="news.html"><span class="zh">最新消息</span><span class="en">News</span></a></li>
+          <li><a href="contact.html"><span class="zh">聯絡我們</span><span class="en">Contact</span></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4><span class="zh">聯絡資訊</span><span class="en">Contact</span></h4>
+        <div class="footer-contact-info">
+          <p><i class="fas fa-envelope"></i> <a href="mailto:zhinuanwarmstudio@gmail.com">zhinuanwarmstudio@gmail.com</a></p>
+          <p><i class="fas fa-phone"></i> <a href="tel:0910406387">0910-406-387</a></p>
+          <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/warmlearning" target="_blank" rel="noopener">@warmlearning</a></p>
+          <p><i class="fab fa-line"></i> <a href="https://lin.ee/rljOLpX" target="_blank" rel="noopener">Line@</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="zh">© 2024 知暖學習工作室 版權所有</p>
+      <p class="en">© 2024 Zhunuan Warm Learning Studio. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
