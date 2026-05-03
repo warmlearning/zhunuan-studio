@@ -8,7 +8,11 @@
       "Bash(git remote *)",
       "Bash(git push *)",
       "Bash(ssh -T git@github.com)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(sed -i '' 's|https://lin.ee/rljOLpX|https://lin.ee/891ivojl|g' *.html)",
+      "Bash(sed -i '' 's|© 2024|© 2026|g' *.html)"
     ]
   }
 }
