@@ -114,12 +114,38 @@ function initCounters() {
 function initContactForm() {
   const form = document.getElementById('contactForm');
   if (!form) return;
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', async e => {
     e.preventDefault();
     const btn = form.querySelector('[type=submit]');
-    btn.textContent = '✓ 已收到訊息！我們會盡快回覆您';
+    const originalHTML = btn.innerHTML;
+
+    // 送出中狀態
+    btn.innerHTML = '⏳ 傳送中...';
     btn.disabled = true;
-    btn.style.background = '#4A9B8F';
+
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        // 成功
+        btn.innerHTML = '✓ 已收到訊息！我們會盡快回覆您';
+        btn.style.background = '#4A9B8F';
+        form.reset();
+      } else {
+        // 失敗
+        btn.innerHTML = '❌ 送出失敗，請直接 Email 或 Line 聯繫我們';
+        btn.style.background = '#e05';
+        btn.disabled = false;
+      }
+    } catch (err) {
+      btn.innerHTML = '❌ 網路錯誤，請稍後再試';
+      btn.style.background = '#e05';
+      btn.disabled = false;
+    }
   });
 }
 
