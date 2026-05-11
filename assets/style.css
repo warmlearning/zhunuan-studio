@@ -739,4 +739,11 @@ body[lang="zh"] .en { display: none !important; }
   .hero-float-card {
     display: none;
   }
+  .hero-section .container {
+    grid-template-columns: 1fr !important;
+    padding-top: 40px !important;
+  }
+  .hero-section .container > div:last-child {
+    min-height: 300px !important;
+  }
 }
