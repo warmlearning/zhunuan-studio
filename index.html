@@ -88,34 +88,47 @@
           </a>
         </div>
       </div>
-      <div class="hero-visual">📚</div>
+      <div style="position:relative;display:flex;align-items:flex-end;flex-shrink:0;">
+        <img src="images/penny-hero.png" alt="Penny 老師"
+             style="width:100%;max-width:420px;object-fit:contain;display:block;position:relative;z-index:1;" />
+        <div class="hero-float-card">
+          <strong>⭐ 7年+ 教學經驗</strong>
+          <span class="zh">50+ 累積學員</span>
+          <span class="en">50+ Students Served</span>
+        </div>
+      </div>
     </div>
+    <!-- Hero 裝飾 -->
+    <div class="deco-dots" style="top:20px;left:0;"></div>
+    <div class="deco-circle" style="top:-60px;right:-60px;width:200px;height:200px;"></div>
   </div>
 </section>
 
 <!-- ══ STATS ══ -->
-<section class="stats-bar">
+<section style="background:#FAF7F2;padding:60px 0;">
   <div class="container">
-    <div class="stats-grid">
-      <div class="stat-item">
-        <div class="stat-num" data-count="7" data-suffix="+">7+</div>
-        <div class="stat-label">
-          <span class="zh">年英語教學經驗</span>
-          <span class="en">Years of Teaching Experience</span>
+    <div style="background:#fff;border-radius:20px;box-shadow:0 4px 20px rgba(0,0,0,0.06);padding:48px 40px;">
+      <div class="stats-grid">
+        <div class="stat-item" style="background:var(--warm-cream);border-radius:16px;padding:28px 20px;">
+          <div class="stat-num" style="color:var(--teal);" data-count="7" data-suffix="+">7+</div>
+          <div class="stat-label" style="color:var(--text-light);">
+            <span class="zh">年英語教學經驗</span>
+            <span class="en">Years of Teaching Experience</span>
+          </div>
         </div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num" data-count="50" data-suffix="+">50+</div>
-        <div class="stat-label">
-          <span class="zh">累積學員</span>
-          <span class="en">Students Served</span>
+        <div class="stat-item" style="background:var(--warm-cream);border-radius:16px;padding:28px 20px;">
+          <div class="stat-num" style="color:var(--teal);" data-count="50" data-suffix="+">50+</div>
+          <div class="stat-label" style="color:var(--text-light);">
+            <span class="zh">累積學員</span>
+            <span class="en">Students Served</span>
+          </div>
         </div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">💛</div>
-        <div class="stat-label">
-          <span class="zh">溫暖陪伴，不留一人</span>
-          <span class="en">Warm Support, Every Step</span>
+        <div class="stat-item" style="background:var(--warm-cream);border-radius:16px;padding:28px 20px;">
+          <div class="stat-num" style="color:var(--teal);">💛</div>
+          <div class="stat-label" style="color:var(--text-light);">
+            <span class="zh">溫暖陪伴，不留一人</span>
+            <span class="en">Warm Support, Every Step</span>
+          </div>
         </div>
       </div>
     </div>
@@ -123,8 +136,8 @@
 </section>
 
 <!-- ══ BRAND BELIEF ══ -->
-<section class="section">
-  <div class="container">
+<section class="section" style="background:#FAF7F2;position:relative;overflow:hidden;">
+  <div class="container" style="position:relative;">
     <div class="section-header">
       <span class="section-tag">
         <span class="zh">我們的理念</span>
@@ -139,42 +152,43 @@
         <span class="en">We believe every learner has the potential — they just need to find the right approach!</span>
       </p>
     </div>
-    <div class="brand-highlight">
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;">
-        <div>
+    <div style="position:relative;">
+      <div class="grid-3">
+        <div style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.06);padding:28px;border-top:3px solid var(--teal);">
           <div style="font-size:2rem;margin-bottom:12px;">🌱</div>
-          <h3 style="color:#fff;margin-bottom:8px;">
+          <h3 style="color:var(--dark-blue);margin-bottom:8px;">
             <span class="zh">從起點開始</span>
             <span class="en">Start From Where You Are</span>
           </h3>
-          <p>
+          <p style="color:var(--text-light);font-size:.92rem;line-height:1.8;">
             <span class="zh">無論您的英語基礎如何，我們都能為您量身規劃最適合的學習路徑。</span>
             <span class="en">No matter your current level, we design a learning path that's perfectly tailored to you.</span>
           </p>
         </div>
-        <div>
+        <div style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.06);padding:28px;border-top:3px solid var(--teal);">
           <div style="font-size:2rem;margin-bottom:12px;">🤝</div>
-          <h3 style="color:#fff;margin-bottom:8px;">
+          <h3 style="color:var(--dark-blue);margin-bottom:8px;">
             <span class="zh">陪伴式引導</span>
             <span class="en">Guided Together</span>
           </h3>
-          <p>
+          <p style="color:var(--text-light);font-size:.92rem;line-height:1.8;">
             <span class="zh">以互動、引導、陪伴取代單向教學，養成自律與自學的能力。</span>
             <span class="en">Interactive, guided, and supportive learning replaces one-way instruction, building self-discipline and independence.</span>
           </p>
         </div>
-        <div>
+        <div style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.06);padding:28px;border-top:3px solid var(--teal);">
           <div style="font-size:2rem;margin-bottom:12px;">✨</div>
-          <h3 style="color:#fff;margin-bottom:8px;">
+          <h3 style="color:var(--dark-blue);margin-bottom:8px;">
             <span class="zh">終身受用</span>
             <span class="en">Skills for Life</span>
           </h3>
-          <p>
+          <p style="color:var(--text-light);font-size:.92rem;line-height:1.8;">
             <span class="zh">不只是考試成績，而是培養真正能帶走的語言能力與學習習慣。</span>
             <span class="en">Beyond exam scores — we build genuine language skills and learning habits that last forever.</span>
           </p>
         </div>
       </div>
+      <div class="deco-wave" style="bottom:20px;right:20px;"></div>
     </div>
   </div>
 </section>
@@ -198,7 +212,7 @@
     </div>
     <div class="grid-3">
       <!-- 1 -->
-      <div class="card service-card">
+      <div class="card service-card" style="border-top:4px solid var(--teal);">
         <div class="service-icon"><i class="fas fa-user-graduate"></i></div>
         <h3><span class="zh">一對一家教</span><span class="en">1-on-1 Tutoring</span></h3>
         <p>
@@ -211,7 +225,7 @@
         </span>
       </div>
       <!-- 2 -->
-      <div class="card service-card">
+      <div class="card service-card" style="border-top:4px solid var(--teal);">
         <div class="service-icon"><i class="fas fa-users"></i></div>
         <h3><span class="zh">小班制課程</span><span class="en">Small Group Classes</span></h3>
         <p>
@@ -224,7 +238,7 @@
         </span>
       </div>
       <!-- 3 -->
-      <div class="card service-card">
+      <div class="card service-card" style="border-top:4px solid var(--teal);">
         <div class="service-icon"><i class="fas fa-book-open"></i></div>
         <h3><span class="zh">升學英語輔導</span><span class="en">Exam Prep</span></h3>
         <p>
@@ -237,9 +251,12 @@
         </span>
       </div>
       <!-- 4 -->
-      <div class="card service-card">
+      <div class="card service-card" style="border-top:4px solid var(--teal);">
         <div class="service-icon"><i class="fas fa-comments"></i></div>
-        <h3><span class="zh">成人英語</span><span class="en">Adult Conversation</span></h3>
+        <h3>
+          <span class="zh">成人英語</span><span class="en">Adult Conversation</span>
+          <span style="background:#FF6B6B;color:#fff;padding:3px 10px;border-radius:50px;font-size:0.7rem;margin-left:8px;font-family:'Noto Sans TC',sans-serif;vertical-align:middle;">🔥 熱門</span>
+        </h3>
         <p>
           <span class="zh">日常會話、電影影集主題探討、職場英文，依照需求客製化課程，並讓英語真正融入生活。</span>
           <span class="en">DDaily conversation, film and series discussions, workplace English — customized courses tailored to your needs, helping English truly become a part of your life.</span>
@@ -250,7 +267,7 @@
         </span>
       </div>
       <!-- 5 -->
-      <div class="card service-card">
+      <div class="card service-card" style="border-top:4px solid var(--teal);">
         <div class="service-icon"><i class="fas fa-compass"></i></div>
         <h3><span class="zh">學習方法輔導</span><span class="en">Study Method Coaching</span></h3>
         <p>
@@ -263,7 +280,7 @@
         </span>
       </div>
       <!-- 6 -->
-      <div class="card service-card">
+      <div class="card service-card" style="border-top:4px solid var(--teal);">
         <div class="service-icon" style="background:linear-gradient(135deg,#f39c12,#e67e22)"><i class="fas fa-laptop"></i></div>
         <h3>
           <span class="zh">線上課程</span>
@@ -291,6 +308,87 @@
   </div>
 </section>
 
+<!-- ══ STUDENT REVIEWS ══ -->
+<section class="section reviews-section">
+  <div class="container" style="position:relative;">
+
+    <div class="deco-dots" style="top:10px;right:0;"></div>
+
+    <div class="section-header">
+      <span class="section-tag">
+        <span class="zh">學生回饋</span>
+        <span class="en">Student Reviews</span>
+      </span>
+      <h2>
+        <span class="zh">學生這樣說 💬</span>
+        <span class="en">What Our Students Say</span>
+      </h2>
+      <p>
+        <span class="zh">真實的學習歷程，溫暖的改變</span>
+        <span class="en">Real journeys, warm transformations</span>
+      </p>
+    </div>
+
+    <div class="reviews-grid">
+
+      <!-- 品瑜媽媽 -->
+      <div class="review-card">
+        <div class="review-img-wrap">
+          <img src="images/review-1.jpg" alt="品瑜媽媽回饋" />
+        </div>
+        <div class="review-footer">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <div class="review-name">
+            <span class="zh">💬 品瑜媽媽・國中生家長</span>
+            <span class="en">💬 Parent of Junior High Student</span>
+          </div>
+          <p class="review-quote">
+            <span class="zh">「品瑜英文進步很多，找到方法且有自信，謝謝老師用心教導！」</span>
+            <span class="en">"My daughter improved so much and found her confidence!"</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- 承翰家長 -->
+      <div class="review-card">
+        <div class="review-img-wrap">
+          <img src="images/review-2.jpg" alt="承翰家長回饋" />
+        </div>
+        <div class="review-footer">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <div class="review-name">
+            <span class="zh">💬 承翰家長・國小生家長</span>
+            <span class="en">💬 Parent of Elementary Student</span>
+          </div>
+          <p class="review-quote">
+            <span class="zh">「承翰能遇到這樣疼他的老師，真的是他的福氣，非常感謝老師的用心！」</span>
+            <span class="en">"It's such a blessing for my son to have such a caring teacher!"</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Lucas 媽媽 -->
+      <div class="review-card">
+        <div class="review-img-wrap">
+          <img src="images/review-3.jpg" alt="Lucas媽媽回饋" />
+        </div>
+        <div class="review-footer">
+          <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          <div class="review-name">
+            <span class="zh">💬 Lucas 媽媽・國小生家長</span>
+            <span class="en">💬 Parent of Elementary Student</span>
+          </div>
+          <p class="review-quote">
+            <span class="zh">「口說評量 A+！聽見 Lucas 有自信地說英文，感到非常驕傲！謝謝老師耐心指導！」</span>
+            <span class="en">"Lucas got A+ in speaking! So proud to hear him speak confidently!"</span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- ══ CTA ══ -->
 <section class="cta-section">
   <div class="container">
@@ -310,6 +408,11 @@
       <a href="services.html" class="btn btn-outline-white">
         <span class="zh"><i class="fas fa-list"></i> 瀏覽課程服務</span>
         <span class="en"><i class="fas fa-list"></i> Browse Services</span>
+      </a>
+      <a href="https://lin.ee/891ivojl" target="_blank" rel="noopener" class="btn btn-white">
+        <i class="fab fa-line"></i>
+        <span class="zh">加入 Line@ 諮詢</span>
+        <span class="en">Chat on Line@</span>
       </a>
     </div>
   </div>
